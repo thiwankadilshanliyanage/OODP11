@@ -16,7 +16,7 @@ interface cart {
     public abstract int price(smart_watch sw);
 }
 
-class cart1 implements cart {
+class Subcart implements cart {
 
     @Override
     public int price(game_console gc) {
